@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+	color: white;
+}
+
+.link {
+	color: white;
+}
+
+.link:hover {
+	color: red;
+}
+
+li:nth-child(2){
+	color: blue;
+}
+
+td:nth-child(2){
+	color: blue;
+}
+
+h2[class=subtitle] {
+	color: pink;
+}
+
+img[src*="../img/"]{
+	border: 10px solid white;
+}
+
+h2[class~=article-subtitle]{
+	background-color: #FFA07A;
+}
+
